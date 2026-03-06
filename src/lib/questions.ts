@@ -18,7 +18,7 @@ export const questions: Question[] = [
   // Q1-Q10: Personality
   {
     id: 1,
-    text: "初めてのコミュニティや集まり。あなたが無意識にやっていることは？",
+    text: "初めてのコミュニティや集まり。\nあなたが無意識にやっていることは？",
     choices: [
       { text: "自分から話しかけて、会話のパスを回して空気を作る", typeVote: "EL" },
       { text: "素直なリアクションを見せて、笑顔で打ち解ける", typeVote: "EF" },
@@ -28,7 +28,7 @@ export const questions: Question[] = [
   },
   {
     id: 2,
-    text: "究極の2択で迷った！最後に背中を押してくれる決め手は？",
+    text: "究極の2択で迷った！\n最後に背中を押してくれる決め手は？",
     choices: [
       { text: "「結果的にどちらが効率的で、理にかなっているか」", typeVote: "EL" },
       { text: "「理屈抜きに、心が『やりたい！』とワクワクするか」", typeVote: "EF" },
@@ -38,7 +38,7 @@ export const questions: Question[] = [
   },
   {
     id: 3,
-    text: "誰かに何かをおすすめするとき、つい熱く語ってしまうポイントは？",
+    text: "誰かに何かをおすすめするとき、\nつい熱く語ってしまうポイントは？",
     choices: [
       { text: "「ここが便利で、こういうメリットがあるよ！」という実用性", typeVote: "EL" },
       { text: "「こんな風に感動して、人生変わったの！」という自分の熱量", typeVote: "EF" },
@@ -48,7 +48,7 @@ export const questions: Question[] = [
   },
   {
     id: 4,
-    text: "予想外のハプニング発生！あなたの最初のアクションは？",
+    text: "予想外のハプニング発生！\nあなたの最初のアクションは？",
     choices: [
       { text: "パパッと役割分担して、みんなでスピーディに解決へ動く", typeVote: "EL" },
       { text: "「大丈夫？」と、まずは自分や周りの感情を落ち着かせる", typeVote: "EF" },
@@ -58,7 +58,7 @@ export const questions: Question[] = [
   },
   {
     id: 5,
-    text: "いざ作業！一番スイッチが入って没入できるのはどんな環境？",
+    text: "いざ作業！一番スイッチが入って\n没入できるのはどんな環境？",
     choices: [
       { text: "カフェのような、適度な人の目や活気があるオープンな場所", typeVote: "EL" },
       { text: "テンションの上がる音楽や、好きな香りに包まれたご機嫌な空間", typeVote: "EF" },
@@ -68,7 +68,7 @@ export const questions: Question[] = [
   },
   {
     id: 6,
-    text: "SNSの投稿を作るとき（または見るとき）、ついこだわってしまうのは？",
+    text: "SNSの投稿を作るとき（または見るとき）、\nついこだわってしまうのは？",
     choices: [
       { text: "「で、結局どうなの？」がすぐわかる、無駄のない結論とメリット", typeVote: "EL" },
       { text: "「わかる！」「最高！」と共感を生む、温度感のあるコミュニケーション", typeVote: "EF" },
@@ -78,7 +78,7 @@ export const questions: Question[] = [
   },
   {
     id: 7,
-    text: "友達から深い悩みを相談された。あなたが自然に取っているスタンスは？",
+    text: "友達から深い悩みを相談された。\nあなたが自然に取っているスタンスは？",
     choices: [
       { text: "「じゃあ、こうしてみたら？」と、具体的な解決策を一緒に考える", typeVote: "EL" },
       { text: "「それは辛かったね」と、まずは思いきり感情に寄り添い、ハグする", typeVote: "EF" },
@@ -98,7 +98,7 @@ export const questions: Question[] = [
   },
   {
     id: 9,
-    text: "正直、人間関係で特に「エネルギー吸い取られるなー…」と感じるのはどんな時？",
+    text: "正直、人間関係で特に\n「エネルギー吸い取られるなー…」\nと感じるのはどんな時？",
     choices: [
       { text: "結論が出ないダラダラした話し合いや、非効率な段取りに巻き込まれた時", typeVote: "EL" },
       { text: "ギスギスした空気や、相手の顔色ばかり伺うような本音のない会話", typeVote: "EF" },
@@ -108,7 +108,7 @@ export const questions: Question[] = [
   },
   {
     id: 10,
-    text: "「よし、新しい私になろう！」と思い立ったとき、最初にとる行動は？",
+    text: "「よし、新しい私になろう！」と思い立ったとき、\n最初にとる行動は？",
     choices: [
       { text: "明確なゴールを設定して、逆算して今日やるべきタスクを即実行する", typeVote: "EL" },
       { text: "とりあえず髪を切る、服を買う、人に会うなど、ノリと勢いで動いてみる", typeVote: "EF" },
@@ -119,7 +119,7 @@ export const questions: Question[] = [
   // Q11-Q20: Phase
   {
     id: 11,
-    text: "最近、あなたの中でいちばん強く渦巻いている感覚は？",
+    text: "最近、あなたの中でいちばん強く\n渦巻いている感覚は？",
     isKey: true,
     choices: [
       { text: "「もうこれ以上はいらない」。身の回りのノイズや、余計なものを一気に削ぎ落としたい", phaseVote: "DETOX" },
@@ -130,7 +130,7 @@ export const questions: Question[] = [
   },
   {
     id: 12,
-    text: "予定が突然ポッカリ空いた！あなたならどう使う？",
+    text: "予定が突然ポッカリ空いた！\nあなたならどう使う？",
     choices: [
       { text: "スマホの通知を切って、ひたすら部屋の断捨離や思考の整理・リセットをする", phaseVote: "DETOX" },
       { text: "「チャンス！」とばかりに、気になっていた新しい企画や行動にそのまま突っ走る", phaseVote: "ACTIVE" },
@@ -140,7 +140,7 @@ export const questions: Question[] = [
   },
   {
     id: 13,
-    text: "今のあなたが、直感的に「一番嫌だ、避けたい」と感じるのは？",
+    text: "今のあなたが、直感的に\n「一番嫌だ、避けたい」と感じるのは？",
     choices: [
       { text: "意味のない付き合いや、惰性で続いている「とりあえず」の予定やノイズ", phaseVote: "DETOX" },
       { text: "話が前に進まない停滞感や、誰かの都合で自分のペースが遅らされること", phaseVote: "ACTIVE" },
@@ -150,7 +150,7 @@ export const questions: Question[] = [
   },
   {
     id: 14,
-    text: "今の体の状態（サイン）。一番しっくりくる表現はどれ？",
+    text: "今の体の状態（サイン）。\n一番しっくりくる表現はどれ？",
     choices: [
       { text: "なんだか体が重だるい、むくみが抜けない。いらないものが「詰まっている」感覚", phaseVote: "DETOX" },
       { text: "バリバリ動けているけど、ふとした瞬間に突然プツンと「ガス欠」しそうな危うさ", phaseVote: "ACTIVE" },
@@ -160,7 +160,7 @@ export const questions: Question[] = [
   },
   {
     id: 15,
-    text: "今の自分に「ひとつだけアイテムを渡せる」としたら、何を選ぶ？",
+    text: "今の自分に「ひとつだけアイテムを渡せる」\nとしたら、何を選ぶ？",
     choices: [
       { text: "違和感のあるものを「もうやめる」とスパッと断ち切る鋭い勇気", phaseVote: "DETOX" },
       { text: "自分の信じた道を、周りを巻き込んででもゴリゴリ進める圧倒的な推進力", phaseVote: "ACTIVE" },
@@ -180,7 +180,7 @@ export const questions: Question[] = [
   },
   {
     id: 17,
-    text: "人間関係において、最近ついやってしまいがちなのは？",
+    text: "人間関係において、\n最近ついやってしまいがちなのは？",
     choices: [
       { text: "みんなでワイワイするより、今は少し人との距離を置いて一人になりたい", phaseVote: "DETOX" },
       { text: "「一緒にこれやろうよ！」と、周りの人を自分のペースに巻き込んで動かしたくなる", phaseVote: "ACTIVE" },
@@ -200,7 +200,7 @@ export const questions: Question[] = [
   },
   {
     id: 19,
-    text: "あなたの直近7日間を振り返って。一番多かったアクションは？",
+    text: "あなたの直近7日間を振り返って。\n一番多かったアクションは？",
     choices: [
       { text: "いらないものを捨てた、合わない習慣をやめた、メルマガを解除した", phaseVote: "DETOX" },
       { text: "新しいことを始めた、大きな決断をした、とにかく行動に移した", phaseVote: "ACTIVE" },
@@ -210,7 +210,7 @@ export const questions: Question[] = [
   },
   {
     id: 20,
-    text: "「こうなったら最高！」と思う、今の理想の状態は？",
+    text: "「こうなったら最高！」と思う、\n今の理想の状態は？",
     isKey: true,
     choices: [
       { text: "部屋もスケジュールも余計なものが一切なく、視界と脳内がクリアな状態", phaseVote: "DETOX" },
