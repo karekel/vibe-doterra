@@ -48,7 +48,7 @@ export default function QuizPage() {
                     flexDirection: "column",
                     alignItems: "center",
                     width: "100%",
-                    padding: "20px 32px 32px",
+                    padding: "10px 32px 32px",
                     boxSizing: "border-box",
                 }}
             >
