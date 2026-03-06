@@ -51,7 +51,7 @@ export default function ResultPage() {
                     flexDirection: "column",
                     alignItems: "center",
                     width: "100%",
-                    padding: "48px 20px 60px",
+                    padding: "48px 28px 60px",
                     boxSizing: "border-box",
                     gap: "24px",
                 }}

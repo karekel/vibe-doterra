@@ -48,7 +48,7 @@ export default function QuizPage() {
                     flexDirection: "column",
                     alignItems: "center",
                     width: "100%",
-                    padding: "48px 24px 40px",
+                    padding: "20px 32px 32px",
                     boxSizing: "border-box",
                 }}
             >
@@ -60,7 +60,7 @@ export default function QuizPage() {
                         fontWeight: "normal",
                         fontSize: "4.5rem",
                         lineHeight: 1,
-                        marginBottom: "16px",
+                        marginBottom: "8px",
                     }}
                 >
                     Q.{currentIndex + 1}
@@ -84,14 +84,14 @@ export default function QuizPage() {
                 <div
                     style={{
                         width: "100%",
-                        marginTop: "24px",
-                        marginBottom: "24px",
+                        marginTop: "12px",
+                        marginBottom: "12px",
                     }}
                 >
                     <div
                         style={{
                             width: "100%",
-                            aspectRatio: "4 / 3",
+                            aspectRatio: "16 / 9",
                             background: "rgba(255, 255, 255, 0.22)",
                             borderRadius: "16px",
                         }}

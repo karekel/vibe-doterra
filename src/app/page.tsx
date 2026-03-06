@@ -19,7 +19,7 @@ export default function Home() {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="flex flex-col flex-1 px-8">
+            <div className="flex flex-col flex-1 px-12">
 
                 {/* 上部スペース */}
                 <div className="flex-[2]" />
