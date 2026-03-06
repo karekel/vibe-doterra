@@ -75,6 +75,7 @@ export default function QuizPage() {
                         lineHeight: 1.7,
                         textAlign: "center",
                         marginBottom: "0",
+                        whiteSpace: "pre-wrap",
                     }}
                 >
                     {currentQuestion.text}

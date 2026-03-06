@@ -109,6 +109,7 @@ export default function ResultPage() {
                                 fontSize: "0.83rem",
                                 lineHeight: 1.85,
                                 margin: 0,
+                                whiteSpace: "pre-wrap",
                             }}
                         >
                             {pData.bodyText}
@@ -159,6 +160,7 @@ export default function ResultPage() {
                                         fontSize: "0.8rem",
                                         lineHeight: 1.65,
                                         margin: 0,
+                                        whiteSpace: "pre-wrap",
                                     }}
                                 >
                                     {oils.core.description}
@@ -271,6 +273,7 @@ export default function ResultPage() {
                                         fontSize: "0.8rem",
                                         lineHeight: 1.65,
                                         margin: 0,
+                                        whiteSpace: "pre-wrap",
                                     }}
                                 >
                                     {oils.phase.description}
@@ -386,6 +389,7 @@ export default function ResultPage() {
                                         fontSize: "0.8rem",
                                         lineHeight: 1.65,
                                         margin: 0,
+                                        whiteSpace: "pre-wrap",
                                     }}
                                 >
                                     {oil.description}
@@ -440,6 +444,7 @@ function ContentSection({ title, content }: { title: string; content: string }) 
                     fontSize: "0.82rem",
                     lineHeight: 1.85,
                     margin: 0,
+                    whiteSpace: "pre-wrap",
                 }}
             >
                 {content}
