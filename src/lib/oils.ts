@@ -127,7 +127,7 @@ export const vibeOils: Record<VibeKey, [OilData, OilData, OilData]> = {
         { name: "カルダモン", subtitle: "客観性のオイル", description: "行き詰まった状況に客観性をもたらし、精神疲労を抜く。" },
     ],
     IL_HEALING: [
-        { name: "シンリンヨク", subtitle: "森の静寂のブレンド", description: "外部からの情報入力を完全に遮断し、森の静けさに浸る。" },
+        { name: "森の音", subtitle: "森の静寂のブレンド", description: "外部からの情報入力を完全に遮断し、森の静けさに浸る。" },
         { name: "シダーウッド", subtitle: "コミュニティのオイル", description: "孤高になりすぎた心を解きほぐし、安全な繋がりを思い出す。" },
         { name: "コパイバ", subtitle: "明瞭と露見のオイル", description: "過敏になった神経系を鎮静させ、深い自己探求へ向かう。" },
     ],

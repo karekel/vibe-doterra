@@ -148,14 +148,17 @@ export default function ResultPage() {
                             そんなあなたに必要なオイルは…
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-                            <div
+                            <img
+                                src={`/オイル/${oils.core.name}.png`}
+                                alt={oils.core.name}
                                 style={{
                                     width: "60px",
                                     height: "80px",
-                                    backgroundColor: "rgba(255,255,255,0.2)",
+                                    objectFit: "contain",
                                     borderRadius: "10px",
                                     flexShrink: 0,
                                 }}
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
                             <div>
                                 <p
@@ -271,14 +274,17 @@ export default function ResultPage() {
                             そんなあなたに必要なオイルは…
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-                            <div
+                            <img
+                                src={`/オイル/${oils.phase.name}.png`}
+                                alt={oils.phase.name}
                                 style={{
                                     width: "60px",
                                     height: "80px",
-                                    backgroundColor: "rgba(255,255,255,0.2)",
+                                    objectFit: "contain",
                                     borderRadius: "10px",
                                     flexShrink: 0,
                                 }}
+                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
                             <div>
                                 <p
@@ -363,15 +369,18 @@ export default function ResultPage() {
                                 justifyContent: "center",
                             }}
                         >
-                            {oils.vibe.map((_, i) => (
-                                <div
+                            {oils.vibe.map((oil, i) => (
+                                <img
                                     key={i}
+                                    src={`/オイル/${oil.name}.png`}
+                                    alt={oil.name}
                                     style={{
                                         flex: 1,
                                         aspectRatio: "2 / 3",
-                                        backgroundColor: "rgba(255,255,255,0.2)",
+                                        objectFit: "contain",
                                         borderRadius: "12px",
                                     }}
+                                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                                 />
                             ))}
                         </div>
