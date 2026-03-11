@@ -152,8 +152,8 @@ export default function ResultPage() {
                                 src={encodeURI(`/オイル/${oils.core.name}.png`)}
                                 alt={oils.core.name}
                                 style={{
-                                    width: "60px",
-                                    height: "80px",
+                                    width: "80px",
+                                    height: "107px",
                                     objectFit: "contain",
                                     borderRadius: "10px",
                                     flexShrink: 0,
@@ -277,8 +277,8 @@ export default function ResultPage() {
                                 src={encodeURI(`/オイル/${oils.phase.name}.png`)}
                                 alt={oils.phase.name}
                                 style={{
-                                    width: "60px",
-                                    height: "80px",
+                                    width: "80px",
+                                    height: "107px",
                                     objectFit: "contain",
                                     borderRadius: "10px",
                                     flexShrink: 0,
@@ -373,10 +373,11 @@ export default function ResultPage() {
                                     src={encodeURI(`/オイル/${oil.name}.png`)}
                                     alt={oil.name}
                                     style={{
-                                        flex: 1,
-                                        aspectRatio: "2 / 3",
+                                        width: "80px",
+                                        height: "107px",
                                         objectFit: "contain",
-                                        borderRadius: "12px",
+                                        borderRadius: "10px",
+                                        flexShrink: 0,
                                     }}
                                 />
                             ))}

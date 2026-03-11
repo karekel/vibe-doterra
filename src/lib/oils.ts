@@ -77,7 +77,7 @@ export const vibeOils: Record<VibeKey, [OilData, OilData, OilData]> = {
         { name: "レモングラス", subtitle: "強力な浄化と前進のオイル", description: "過去のやり方に固執せず、前へ進むための強力な浄化を促す。" },
     ],
     EL_HEALING: [
-        { name: "セレニティー", subtitle: "休息と解放のブレンド", description: "フル回転した脳波を落ち着かせ、完璧な休息を取る。" },
+        { name: "セレニティ", subtitle: "休息と解放のブレンド", description: "フル回転した脳波を落ち着かせ、完璧な休息を取る。" },
         { name: "プチグレン", subtitle: "祖先の知恵のオイル", description: "論理的になりすぎた思考を、深い知恵で優しく鎮静させる。" },
         { name: "ハワイアンサンダルウッド", subtitle: "神聖な献身と静寂のオイル", description: "思考のスイッチを完全に切り、深い精神的な静寂の中で自己の本質と繋がり直す。" },
     ],
@@ -152,7 +152,7 @@ export const vibeOils: Record<VibeKey, [OilData, OilData, OilData]> = {
         { name: "サルベル", subtitle: "霊的洞察のブレンド", description: "精神とライフスタイルをひとつの芸術へ昇華する。" },
     ],
     IF_HEALING: [
-        { name: "パチュリ", subtitle: "肉体とグラウンディングのオイル", description: "浮き足立った意識を肉体へ引き戻し、自分の『身体』という最も身近な聖域を深く愛し直す。" },
+        { name: "パチョリ", subtitle: "肉体とグラウンディングのオイル", description: "浮き足立った意識を肉体へ引き戻し、自分の『身体』という最も身近な聖域を深く愛し直す。" },
         { name: "ジャスミン", subtitle: "純粋な意図のオイル", description: "他人の目がない安全な聖域で、純粋な喜びで自己を満たす。" },
         { name: "ブルータンジー", subtitle: "インスピレーションと行動のオイル", description: "インナーチャイルドの傷を癒やし、強すぎる自己批判を静める。" },
     ],
