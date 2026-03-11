@@ -127,7 +127,7 @@ export default function ResultPage() {
                                 whiteSpace: "pre-wrap",
                             }}
                         >
-                            {pData.bodyText}
+                            {formatText(pData.bodyText)}
                         </p>
                     </div>
 
@@ -180,7 +180,7 @@ export default function ResultPage() {
                                         whiteSpace: "pre-wrap",
                                     }}
                                 >
-                                    {oils.core.description}
+                                    {formatText(oils.core.description)}
                                 </p>
                             </div>
                         </div>
@@ -305,7 +305,7 @@ export default function ResultPage() {
                                         whiteSpace: "pre-wrap",
                                     }}
                                 >
-                                    {oils.phase.description}
+                                    {formatText(oils.phase.description)}
                                 </p>
                             </div>
                         </div>
@@ -424,7 +424,7 @@ export default function ResultPage() {
                                         whiteSpace: "pre-wrap",
                                     }}
                                 >
-                                    {oil.description}
+                                    {formatText(oil.description)}
                                 </p>
                             </div>
                         ))}
@@ -456,6 +456,10 @@ export default function ResultPage() {
     );
 }
 
+function formatText(text: string): string {
+    return text.replace(/\n/g, "").replace(/。/g, "。\n").trimEnd();
+}
+
 function ContentSection({ title, content }: { title: string; content: string }) {
     return (
         <div>
@@ -479,7 +483,7 @@ function ContentSection({ title, content }: { title: string; content: string }) 
                     whiteSpace: "pre-wrap",
                 }}
             >
-                {content}
+                {formatText(content)}
             </p>
         </div>
     );
