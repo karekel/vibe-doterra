@@ -26,6 +26,20 @@ export default function ResultPage() {
     const oils = getRecommendedOils(result.personality, result.phase);
     const vibe = vibeCopy[`${result.personality}_${result.phase}`];
 
+    const coreImageMap: Record<string, string> = {
+        EL: "/結果/EL：戦略的リーダー.jpg",
+        EF: "/結果/EF：共鳴するクリエイター.jpg",
+        IL: "/結果/IL：核心のミニマリスト.jpg",
+        IF: "/結果/IF：静かなる表現者.jpg",
+    };
+    const phaseImageMap: Record<string, string> = {
+        DETOX: "/結果/DETOX.jpg",
+        ACTIVE: "/結果/Active.jpg",
+        HEALING: "/結果/Healing.jpg",
+        EXPRESSION: "/結果/expression.jpg",
+        AMBIVALENCE: "/結果/Ambibarent.jpg",
+    };
+
     const handleReset = () => {
         resetQuiz();
         router.push("/");
@@ -92,12 +106,13 @@ export default function ResultPage() {
                     </div>
 
                     <div style={{ padding: "0 24px 20px" }}>
-                        <div
+                        <img
+                            src={coreImageMap[result.personality]}
+                            alt={result.personality}
                             style={{
                                 width: "100%",
-                                aspectRatio: "4 / 3",
-                                backgroundColor: "rgba(255, 255, 255, 0.2)",
                                 borderRadius: "16px",
+                                display: "block",
                             }}
                         />
                     </div>
@@ -198,20 +213,30 @@ export default function ResultPage() {
                                 color: "#ffffff",
                                 fontSize: "1.05rem",
                                 fontWeight: 700,
-                                margin: 0,
+                                margin: "0 0 8px 0",
                             }}
                         >
                             {phData.subtitle}
                         </p>
+                        <p
+                            style={{
+                                color: "rgba(255,255,255,0.85)",
+                                fontSize: "0.85rem",
+                                margin: 0,
+                            }}
+                        >
+                            「{phData.phaseLabel}」
+                        </p>
                     </div>
 
                     <div style={{ padding: "0 24px 20px" }}>
-                        <div
+                        <img
+                            src={phaseImageMap[result.phase]}
+                            alt={result.phase}
                             style={{
                                 width: "100%",
-                                aspectRatio: "4 / 3",
-                                backgroundColor: "rgba(255, 255, 255, 0.2)",
                                 borderRadius: "16px",
+                                display: "block",
                             }}
                         />
                     </div>

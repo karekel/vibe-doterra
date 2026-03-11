@@ -81,7 +81,7 @@ export default function QuizPage() {
                     {currentQuestion.text}
                 </p>
 
-                {/* 画像プレースホルダー（上下余白） */}
+                {/* 質問画像 */}
                 <div
                     style={{
                         width: "100%",
@@ -89,12 +89,13 @@ export default function QuizPage() {
                         marginBottom: "12px",
                     }}
                 >
-                    <div
+                    <img
+                        src={`/Q/Q${currentIndex + 1}.jpg`}
+                        alt={`Q${currentIndex + 1}`}
                         style={{
                             width: "100%",
-                            aspectRatio: "16 / 9",
-                            background: "rgba(255, 255, 255, 0.22)",
                             borderRadius: "16px",
+                            display: "block",
                         }}
                     />
                 </div>
