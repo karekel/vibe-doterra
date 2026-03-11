@@ -149,7 +149,7 @@ export default function ResultPage() {
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
                             <img
-                                src={`/オイル/${oils.core.name}.png`}
+                                src={encodeURI(`/オイル/${oils.core.name}.png`)}
                                 alt={oils.core.name}
                                 style={{
                                     width: "60px",
@@ -158,7 +158,6 @@ export default function ResultPage() {
                                     borderRadius: "10px",
                                     flexShrink: 0,
                                 }}
-                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
                             <div>
                                 <p
@@ -275,7 +274,7 @@ export default function ResultPage() {
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
                             <img
-                                src={`/オイル/${oils.phase.name}.png`}
+                                src={encodeURI(`/オイル/${oils.phase.name}.png`)}
                                 alt={oils.phase.name}
                                 style={{
                                     width: "60px",
@@ -284,7 +283,6 @@ export default function ResultPage() {
                                     borderRadius: "10px",
                                     flexShrink: 0,
                                 }}
-                                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                             />
                             <div>
                                 <p
@@ -372,7 +370,7 @@ export default function ResultPage() {
                             {oils.vibe.map((oil, i) => (
                                 <img
                                     key={i}
-                                    src={`/オイル/${oil.name}.png`}
+                                    src={encodeURI(`/オイル/${oil.name}.png`)}
                                     alt={oil.name}
                                     style={{
                                         flex: 1,
@@ -380,7 +378,6 @@ export default function ResultPage() {
                                         objectFit: "contain",
                                         borderRadius: "12px",
                                     }}
-                                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                                 />
                             ))}
                         </div>
