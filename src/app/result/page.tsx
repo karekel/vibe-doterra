@@ -466,10 +466,11 @@ function ContentSection({ title, content }: { title: string; content: string }) 
             <p
                 style={{
                     color: "rgba(255,255,255,0.7)",
-                    fontSize: "0.7rem",
+                    fontSize: "0.9rem",
                     fontWeight: 700,
                     letterSpacing: "0.08em",
                     margin: "0 0 6px 0",
+                    textAlign: "center",
                 }}
             >
                 【{title}】
