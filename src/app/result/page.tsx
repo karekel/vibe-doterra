@@ -149,7 +149,7 @@ export default function ResultPage() {
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
                             <img
-                                src={encodeURI(`/オイル/${oils.core.name}.png`)}
+                                src={encodeURI(`/オイル/${oils.core.name.normalize('NFD')}.png`)}
                                 alt={oils.core.name}
                                 style={{
                                     width: "80px",
@@ -274,7 +274,7 @@ export default function ResultPage() {
                         </p>
                         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
                             <img
-                                src={encodeURI(`/オイル/${oils.phase.name}.png`)}
+                                src={encodeURI(`/オイル/${oils.phase.name.normalize('NFD')}.png`)}
                                 alt={oils.phase.name}
                                 style={{
                                     width: "80px",
@@ -370,7 +370,7 @@ export default function ResultPage() {
                             {oils.vibe.map((oil, i) => (
                                 <img
                                     key={i}
-                                    src={encodeURI(`/オイル/${oil.name}.png`)}
+                                    src={encodeURI(`/オイル/${oil.name.normalize('NFD')}.png`)}
                                     alt={oil.name}
                                     style={{
                                         width: "80px",
