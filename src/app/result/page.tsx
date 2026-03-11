@@ -27,10 +27,10 @@ export default function ResultPage() {
     const vibe = vibeCopy[`${result.personality}_${result.phase}`];
 
     const coreImageMap: Record<string, string> = {
-        EL: "/結果/EL：戦略的リーダー.jpg",
-        EF: "/結果/EF：共鳴するクリエイター.jpg",
-        IL: "/結果/IL：核心のミニマリスト.jpg",
-        IF: "/結果/IF：静かなる表現者.jpg",
+        EL: "/結果/EL.jpg",
+        EF: "/結果/EF.jpg",
+        IL: "/結果/IL.jpg",
+        IF: "/結果/IF.jpg",
     };
     const phaseImageMap: Record<string, string> = {
         DETOX: "/結果/DETOX.jpg",
